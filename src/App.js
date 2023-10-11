@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Private message</h1>
+      <h1>DIKA WIBUU</h1>
 
       <div className="messages">
         <div ref={scrollTo}></div>
