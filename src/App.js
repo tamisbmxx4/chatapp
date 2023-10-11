@@ -55,11 +55,11 @@ function App() {
 
       <form>
         <input value={formValue} onChange={(e) => setFormValue(e.target.value)} />
-        <button onClick={(e) => sendMessage(e)}>Send</button>
+        <button onClick={(e) => sendMessage(e)}>Kirim</button>
       </form>
       <div className='buttons'>
-        {!user ? <button className='login' onClick={() => googleSignIn()}>Login with google</button> : 
-        <button className='logout' onClick={() => logOut()}>Log out</button>}
+        {!user ? <button className='login' onClick={() => googleSignIn()}>Masuk Dengan Google</button> : 
+        <button className='logout' onClick={() => logOut()}>Keluar</button>}
       </div>
     </div>
   );
