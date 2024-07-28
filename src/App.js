@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>mistaid</h1>
+      <h1>YTTA 😁</h1>
 
       <div className="messages">
         <div ref={scrollTo}></div>
